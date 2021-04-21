@@ -1,22 +1,20 @@
 {
-  "name": "statsig-react-native-expo-sdk",
+  "name": "statsig-react-native-expo",
   "version": "1.0.0",
   "description": "Statsig SDK to be used in React Native Expo applications",
   "main": "index.js",
   "files": [
     "index.d.ts",
-    "index.js",
-    "dist/statsig-react-native-sdk.js",
-    "dist/dev-statsig-react-native-sdk.js"
+    "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/statsig-io/statsig-js-client-sdk.git"
+    "url": "git+https://github.com/statsig-io/react-native-expo.git"
   },
   "author": "Statsig, Inc.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/statsig-io/statsig-js-client-sdk/issues"
+    "url": "https://github.com/statsig-io/react-native-expo/issues"
   },
   "keywords": [
     "feature gate",
@@ -32,11 +30,14 @@
     "expo-device": "^3.1.1",
     "js-sha256": "^0.9.0",
     "react-native-get-random-values": "^1.6.0",
-    "statsig-js-client-sdk": "^1.0.24",
+    "statsig-js-client-sdk": "^1.0.25",
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
     "react-native": ">=0.60.0"
   },
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
