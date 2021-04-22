@@ -1,5 +1,5 @@
 import 'react-native-get-random-values';
-import statsig from 'statsig-js-client-sdk';
+import statsig from 'statsig-js';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { AppState, NativeModules, Platform } from 'react-native';
 import Constants from 'expo-constants';
