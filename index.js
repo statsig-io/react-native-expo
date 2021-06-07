@@ -7,7 +7,7 @@ import * as ExpoDevice from 'expo-device';
 
 statsig._setReactNativeDependencies(
   {
-    sdkType: 'react-native-expo',
+    sdkType: 'react-native-expo-client',
     sdkVersion: require('./package.json')?.version,
   },
   AsyncStorage,
