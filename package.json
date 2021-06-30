@@ -1,12 +1,12 @@
 {
   "name": "statsig-react-native-expo",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Statsig SDK to be used in React Native Expo applications",
-  "main": "index.js",
-  "files": [
-    "index.d.ts",
-    "index.js"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/statsig-io/react-native-expo.git"
@@ -30,14 +30,15 @@
     "expo-device": "^3.1.1",
     "js-sha256": "^0.9.0",
     "react-native-get-random-values": "^1.6.0",
-    "statsig-js": "^2.1.1",
+    "statsig-react": "^0.4.1",
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
-    "react-native": ">=0.60.0"
+    "react-native": ">=0.59.0"
   },
-  "types": "index.d.ts",
   "devDependencies": {
+    "@types/react": "^17.0.9",
+    "@types/react-native": "^0.64.10",
     "typescript": "^4.2.4"
   }
 }
