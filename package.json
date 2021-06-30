@@ -1,6 +1,6 @@
 {
   "name": "statsig-react-native-expo",
-  "version": "3.0.0-alpha",
+  "version": "3.0.0",
   "description": "Statsig SDK to be used in React Native Expo applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
