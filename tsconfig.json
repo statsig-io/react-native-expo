@@ -1,12 +1,15 @@
 {
-  "include": ["./**/*"],
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true,
-    "resolveJsonModule": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
     "outDir": "dist",
-    "esModuleInterop": true
-  }
+    "jsx": "react",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "typings"]
 }
