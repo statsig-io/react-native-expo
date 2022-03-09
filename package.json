@@ -1,6 +1,6 @@
 {
   "name": "statsig-react-native-expo",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "Statsig SDK to be used in React Native Expo applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
   "homepage": "https://www.statsig.com",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.2",
-    "expo-constants": "^9.3.5",
+    "expo-constants": "^13.0.2",
     "expo-device": "^3.1.1",
     "js-sha256": "^0.9.0",
     "react-native-get-random-values": "^1.6.0",
