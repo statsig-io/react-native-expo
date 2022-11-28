@@ -19,8 +19,8 @@ export default class Statsig extends StatsigInternal {
     try {
       if (!StatsigInternal.initializeCalled()) {
         StatsigInternal.setSDKPackageInfo({
-          sdkType: 'react-native-client',
-          sdkVersion: packageJson?.version || '4.4.0',
+          sdkType: 'react-native-expo-client',
+          sdkVersion: packageJson?.version || '4.6.0',
         });
         StatsigInternal.setAsyncStorage(AsyncStorage);
 
